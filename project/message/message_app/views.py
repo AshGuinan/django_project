@@ -22,3 +22,7 @@ def register(request):
 
 def welcome(request):
     return render(request,'welcome.html')
+
+def add_photo(request):
+    return render(request,'add_photo.html')
+
