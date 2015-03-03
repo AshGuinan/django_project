@@ -1,7 +1,7 @@
 from django import template
-from message_app.models import get_all_logged_in_users
+from message_app.views import get_all_logged_in_users
 register = template.Library()
 
-@register.inclusion_tag('templatetags/logged_in_user_list.html')
+@register.inclusion_tag('logged_in_user_list.html')
 def render_logged_in_user_list():
     return { 'users': get_all_logged_in_users() }
