@@ -34,7 +34,7 @@ def add_photo(request):
 
 def logged(request):
   logged_users = LoggedUser.objects.all().order_by('username')
-  return render_to_response('add_photo.html',
+  return render_to_response('users/logged.html',
                             {'logged_users': logged_users},
                             context_instance=RequestContext(request))
 
