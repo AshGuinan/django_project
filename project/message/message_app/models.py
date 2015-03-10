@@ -1,4 +1,7 @@
 from django.db import models
+from django.contrib.auth.models import User
+from django.contrib.sessions.models import Session
+from datetime import datetime
 
 class LoggedUser(models.Model):
     user = models.ForeignKey(User, primary_key=True)
@@ -16,5 +19,5 @@ class LoggedUser(models.Model):
         except LoggedUser.DoesNotExist:
             pass
 
-    user_logged_in.connect(login_user)
-    user_logged_out.connect(logout_user)
+   # user_logged_in.connect(login_user)
+   # user_logged_out.connect(logout_user)

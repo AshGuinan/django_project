@@ -38,3 +38,4 @@ def logged(request):
                             {'logged_users': logged_users},
                             context_instance=RequestContext(request))
 
+
