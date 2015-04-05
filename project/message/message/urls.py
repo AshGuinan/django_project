@@ -13,4 +13,4 @@ urlpatterns = patterns('',
     url(r'^accounts/register/$',register),
     url(r'^accounts/profile/$',welcome),
     url(r'^add_photo.html',add_photo),
-   )
+ )

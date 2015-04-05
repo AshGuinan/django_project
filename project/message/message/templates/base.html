@@ -52,8 +52,9 @@
 			{% block footer %}
 			
 			{% if user.is_authenticated %}
-				<p>{{ user }} is currently logged in...</p>
-			{% else %}
+				<p>Hey there {{ user }}!</p>
+					
+					{% else %}
 				<p>Not logged in yet...</p>
 			{% endif %}
 
@@ -65,7 +66,7 @@
 					  <li><a href="/accounts/register/">Register</a></li>
 					  <li><a href="/add_photo.html">Add Photo</a></li>
 					  <li><a href="/accounts/logout/">Logout</a></li>		
-					  
+					
               <p>Ey up th'art nesh thee gi' o'er. Ey up breadcake mardy bum tha daft apeth ee by gum. Will 'e 'eckerslike dahn t'coil oil dahn t'coil oil sup wi' 'im. Breadcake tintintin ey up. Will 'e 'eckerslike aye ee by gum by 'eck chuffin' nora. Ne'ermind. Nobbut a lad mardy bum. T'foot o' our stairs nobbut a lad tha daft apeth nobbut a lad ah'll gi' thee a thick ear. A pint 'o mild aye nah then appens as maybe sup wi' 'im. Bobbar soft southern pansy th'art nesh thee that's champion th'art nesh thee.
 
 Ah'll gi' thee a thick ear th'art nesh thee soft lad what's that when it's at ooam ah'll gi' thi summat to rooer abaht th'art nesh thee. Wacken thi sen up tha knows soft southern pansy tha daft apeth. Ah'll box thi ears big girl's blouse ah'll gi' thi summat to rooer abaht ne'ermind ah'll gi' thee a thick ear bobbar. Shurrup dahn t'coil oil shurrup. Shu' thi gob ah'll learn thi by 'eck. That's champion gi' o'er. By 'eck. Nobbut a lad nah then. Tintintin. Is that thine th'art nesh thee ah'll gi' thi summat to rooer abaht big girl's blouse soft southern pansy. Wacken thi sen up t'foot o' our stairs aye.
@@ -75,7 +76,8 @@ Nah then aye. Ah'll box thi ears that's champion gerritetten tha what. That's ch
 God's own county face like a slapped arse appens as maybe. Tintintin. Tha what soft southern pansy bloomin' 'eck what's that when it's at ooam nobbut a lad bloomin' 'eck. By 'eck ee by gum breadcake big girl's blouse wacken thi sen up what's that when it's at ooam. Dahn t'coil oil will 'e 'eckerslike. Ah'll gi' thi summat to rooer abaht sup wi' 'im a pint 'o mild. That's champion breadcake mardy bum. Ey up eeh big girl's blouse. Sup wi' 'im any rooad soft lad. Breadcake aye bobbar. Tintintin. Nay lad ah'll gi' thee a thick ear ah'll learn thi ah'll learn thi. Ee by gum ah'll gi' thi summat to rooer abaht what's that when it's at ooam tha knows by 'eck. Th'art nesh thee ah'll gi' thee a thick ear ah'll gi' thi summat to rooer abaht chuffin' nora that's champion nobbut a lad.
 
 Ah'll box thi ears nobbut a lad appens as maybe ey up. Be reet big girl's blouse tintintin gerritetten ey up. Sup wi' 'im. Tha knows nobbut a lad cack-handed. Tintintin will 'e 'eckerslike. Nay lad tell thi summat for nowt bloomin' 'eck how much nay lad tha knows. Tell thi summat for nowt ah'll learn thi any rooad. Nah then is that thine cack-handed that's champion nay lad. God's own county will 'e 'eckerslike michael palin. Eeh. Ah'll box thi ears where's tha bin where's tha bin tell thi summat for nowt ey up. Tha knows. T'foot o' our stairs eeh mardy bum.
-              </p>
+              {% load templatetags %}
+{% render_logged_in_user_list %}</p>
 			
 			
       </div>
