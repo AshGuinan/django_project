@@ -1,7 +1,7 @@
 /* Move down content because we have a fixed navbar that is 50px tall */
 body {
   padding-top: 70px;
-    background: url("http://i1164.photobucket.com/albums/q578/sweetabsinthekid/brick-wallpaper-112768510349JN4_zpsfmlavvut.jpg");
+    background: url({{STATIC_FIES}}/img/brick-wallpaper-112768510349JN4.jpg);
 }
 
 h1{
@@ -9,9 +9,6 @@ font-family: "Lobster", cursive;
 color: white;
 text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
     
-}
-
-img {
 }
 
 p{
@@ -36,6 +33,6 @@ border-radius: 7px;
 }
 
 .jumbotron{
-background: url("http://i1164.photobucket.com/albums/q578/sweetabsinthekid/enhanced-buzz-7346-1372715771-16_zpsq6dgfvuu.jpg") cover no-repeat; 
+background: url({{STATIC_FILES}}/img/enhanced-buzz-7346-1372715771-16.jpg) cover no-repeat; 
 }
 

@@ -10,7 +10,7 @@
 
 body{
   padding-top: 70px;
-background: url(http://i1164.photobucket.com/albums/q578/sweetabsinthekid/brick-wallpaper-112768510349JN4_zpsfmlavvut.jpg) no-repeat cover;
+background: url(/img/brick-wallpaper-112768510349JN4.jpg) no-repeat cover;
 
 }
  
@@ -5267,7 +5267,7 @@ a.badge:focus,a.badge:hover{
 .jumbotron{
 	padding:30px 15px;
 	margin-bottom:30px;
-	background: url(http://i1164.photobucket.com/albums/q578/sweetabsinthekid/enhanced-buzz-7346-1372715771-16_zpsq6dgfvuu.jpg) no-repeat;
+	background: url(/img/enhanced-buzz-7346-1372715771-16.jpg) no-repeat;
     background-position: top;
     background-size: cover;
 }
