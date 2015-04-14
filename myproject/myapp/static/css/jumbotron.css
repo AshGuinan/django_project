@@ -1,7 +1,7 @@
 /* Move down content because we have a fixed navbar that is 50px tall */
 body {
   padding-top: 70px;
-    background: url({{ STATIC_FILES }}/img/brick-wallpaper-112768510349JN4.jpg);
+    background: url(http://i1164.photobucket.com/albums/q578/sweetabsinthekid/brick-wallpaper-112768510349JN4_zpsfmlavvut.jpg);
 }
 
 h1{
