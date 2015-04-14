@@ -77,7 +77,7 @@
             {% if documents %}
 			<ul>
 			{% for document in documents %}
-				<li><img src="{{ document.docfile.url }}">{{ document.docfile.name }}</a></li>
+				<img src="{{ document.docfile.url }}">{{ document.docfile.name }}</a>
 			{% endfor %}
 			</ul>
 		{% endif %}
