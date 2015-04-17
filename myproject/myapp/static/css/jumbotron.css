@@ -1,22 +1,31 @@
 /* Move down content because we have a fixed navbar that is 50px tall */
 body {
   padding-top: 70px;
-    background: url("http://i1164.photobucket.com/albums/q578/sweetabsinthekid/brick-wallpaper-112768510349JN4_zpsfmlavvut.jpg");
+    background: 
+url("http://i1164.photobucket.com/albums/q578/sweetabsinthekid/brick-wallpaper-112768510349JN4_zpsfmlavvut.jpg");
 }
 
-h1{
+.contains {
+height: 40%;
+weight: 50%;
+margin-left: auto;
+margin-right: auto
+}
+
+ h1{
 font-family: "Lobster", cursive;
 color: white;
 text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-    
+    margin-left: auto;
+    margin-right: auto;    
 }
 
-img {
-}
-
-p{
+.contains h2, h3, p{
 font-family: 'Amatic SC', cursive;
 color: black;
+margin-left: auto;
+margin-right: auto;
+font-size; 130%;
 text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
 }
 
@@ -39,3 +48,13 @@ border-radius: 7px;
 background: url("http://i1164.photobucket.com/albums/q578/sweetabsinthekid/enhanced-buzz-7346-1372715771-16_zpsq6dgfvuu.jpg") cover no-repeat; 
 }
 
+.contains img{
+max-height: 100%;
+max-width: 100%;
+}
+ 
+.contains h1{
+font-family: "Lobster", cursive;
+font-size: 200%;
+font-weight: 400;
+}
