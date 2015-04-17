@@ -2,7 +2,7 @@
 body {
   padding-top: 70px;
     background: 
-url("http://i1164.photobucket.com/albums/q578/sweetabsinthekid/brick-wallpaper-112768510349JN4_zpsfmlavvut.jpg") cover no-repeat;
+url("http://i1164.photobucket.com/albums/q578/sweetabsinthekid/brick-wallpaper-112768510349JN4_zpsfmlavvut.jpg");
 /*TODO: Change urls to img served on Danu*/
 }
 
@@ -78,7 +78,7 @@ font-weight: 400;
   display         : block;
   width           : 1.5em;
   height          : 1.5em;
-  background      : url('star-on.svg');
+  background      : url('{{STATIC_URL}}/img/tiny_star.gif');
   background-size : contain;
   opacity         : 0;
   transition      : opacity 0.2s linear;
