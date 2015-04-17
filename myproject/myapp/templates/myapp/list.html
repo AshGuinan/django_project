@@ -7,6 +7,24 @@
         <ul>
         {% for document in documents %}
             <li><a href="{{ document.docfile.url }}"><img src ="{{ document.docfile.url }}"></a></li>
+			<span class='st_sharethis_large' displayText='ShareThis'></span>
+			<span class='st_facebook_large' displayText='Facebook'></span>
+			<span class='st_twitter_large' displayText='Tweet'></span>
+			<span class='st_linkedin_large' displayText='LinkedIn'></span>
+			<span class='st_pinterest_large' displayText='Pinterest'></span>
+			<span class='st_email_large' displayText='Email'></span>
+			<span class="starRating">
+  <input id="rating5" type="radio" name="rating" value="5">
+  <label for="rating5">5</label>
+  <input id="rating4" type="radio" name="rating" value="4">
+  <label for="rating4">4</label>
+  <input id="rating3" type="radio" name="rating" value="3">
+  <label for="rating3">3</label>
+  <input id="rating2" type="radio" name="rating" value="2">
+  <label for="rating2">2</label>
+  <input id="rating1" type="radio" name="rating" value="1">
+  <label for="rating1">1</label>
+</span>
         {% endfor %}
         </ul>
     {% else %}
